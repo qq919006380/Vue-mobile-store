@@ -22,7 +22,6 @@
 </template>
 
 <script>
-import MintUi from "mint-ui";
 import "mint-ui/lib/style.css";
 
 export default {
@@ -43,8 +42,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-div {
-  border: solid 1px;
-}
+<style scoped>  
 </style>

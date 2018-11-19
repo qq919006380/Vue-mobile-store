@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import Axios from 'axios';
 import Router from 'vue-router';
-import router from './router/index.js'
+import router from './router'
 import MintUi from 'mint-ui';
 import 'mint-ui/lib/style.css'
 

@@ -1,4 +1,4 @@
-# vueCLI-demo
+# Vue-mobile-store
 
 ## Project setup
 ```

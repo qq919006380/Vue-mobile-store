@@ -2,22 +2,19 @@
   <div id="app">
     <mt-header fixed title="项目信息管理系统"></mt-header>
     <router-view></router-view>
-    <HelloWorld></HelloWorld>
+    <mt-bottom></mt-bottom>
   </div>
   
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
-import MintUi from "mint-ui";
-import "mint-ui/lib/style.css";
-import Router from 'vue-router';
+import mtBottom from "@/components/mtBottom.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
-  },
+    mtBottom
+  }, 
   data() {
     return {
       
