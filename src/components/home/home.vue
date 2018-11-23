@@ -4,12 +4,42 @@
             <mt-swipe-item v-for="(img,index) in imgs" :key="index"><img :src="img.img" alt=""></mt-swipe-item>        
         </mt-swipe>
         <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
+            <li>
+                <a href="">
+                    <span></span>
+                    <div>新闻咨询</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span></span>
+                    <div>新闻咨询</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span></span>
+                    <div>新闻咨询</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span></span>
+                    <div>新闻咨询</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="bg"></span>
+                    <div>新闻咨询</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span></span>
+                    <div>新闻咨询</div>
+                </a>
+            </li>
         </ul>
     </div>
 </template>
@@ -42,8 +72,18 @@ export default {
     ul>li{
         list-style: none;
         float: left;
-        width: 30%;
-        background: pink
+        width: 33.3%;
+        background: pink;
+        text-align: center;
+        height: 100px;
+        line-height: 100px
+    }
+    ul{
+        margin: 0;
+        padding: 0
+    }
+    .bg{
+        background: image("../../assets/logo.png")
     }
 </style>
 
