@@ -10,6 +10,7 @@ Vue.prototype.$axios=Axios//配置Axios
 Vue.use(MintUi)
 Vue.use(Router)
 
+
 Axios.defaults.baseURL='http://xxxx'//配置公共URL
 Vue.config.productionTip = false; 
 

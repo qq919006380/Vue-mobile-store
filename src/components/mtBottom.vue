@@ -25,14 +25,14 @@
 import "mint-ui/lib/style.css";
 
 export default {
-  name: "HelloWorld",
+  name: "mt-bottom",
   data() {
     return {
       selected: ""
     };
   },
   watch: {
-    selected(newV, oleV) {
+    selected(newV) {
       this.$router.push({
         name:newV
       })
